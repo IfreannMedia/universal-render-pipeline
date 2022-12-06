@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4556114323358980463
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MossyStoneWall
-  m_Shader: {fileID: -6465566751694194690, guid: 22871284018de3246865c7571d197cb9,
+  m_Name: colourBurn
+  m_Shader: {fileID: -6465566751694194690, guid: fc3ccaaf1d8bfb74b890e4523c26565f,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -65,44 +78,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _background:
-        m_Texture: {fileID: 2800000, guid: 8ebf562d21937d5428831c8908e49688, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _backgroundAO:
-        m_Texture: {fileID: 2800000, guid: e49bc7d9268166048b334e700789f1ae, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _backgroundAlbedo:
-        m_Texture: {fileID: 2800000, guid: 8ebf562d21937d5428831c8908e49688, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _backgroundNormal:
-        m_Texture: {fileID: 2800000, guid: 21f6621a566e9454aa7c58dee957d8b5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _backgroundRoughness:
-        m_Texture: {fileID: 2800000, guid: d2eb135dbb93e964cac7d2748df42d6c, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _foreground:
+    - _blend:
         m_Texture: {fileID: 2800000, guid: 2d0536fa23c3a394f9a889e1e310c111, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _foregroundAO:
-        m_Texture: {fileID: 2800000, guid: eec3a4111dd02894287356a5e39fe6eb, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _foregroundAlbedo:
-        m_Texture: {fileID: 2800000, guid: 2d0536fa23c3a394f9a889e1e310c111, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _foregroundNormal:
-        m_Texture: {fileID: 2800000, guid: 92552097ed307714c99e0710b2a86ae9, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _foregroundRoughness:
-        m_Texture: {fileID: 2800000, guid: adfc1c56c5df10345a93de8df5a2712c, type: 3}
+    - _target:
+        m_Texture: {fileID: 2800000, guid: 8ebf562d21937d5428831c8908e49688, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -146,23 +127,9 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _blendAmount: 0.439
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &1554633968948855813
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 5
