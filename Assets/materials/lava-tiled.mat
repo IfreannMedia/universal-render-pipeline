@@ -70,4 +70,5 @@ Material:
     - _tiling: 2
     m_Colors:
     - _Color: {r: 1, g: 1, b: 0.13679248, a: 1}
+    - _Color_2: {r: 1, g: 0, b: 0.2520671, a: 0}
   m_BuildTextureStacks: []
