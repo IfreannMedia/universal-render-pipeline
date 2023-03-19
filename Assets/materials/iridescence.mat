@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7242304111467308922
+--- !u!114 &-3085881023193692594
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ice
-  m_Shader: {fileID: -6465566751694194690, guid: fbf5497970a697847ab79f0807384a83,
+  m_Name: iridescence
+  m_Shader: {fileID: -6465566751694194690, guid: 79477e277921d814ba5fca3474a8e0b3,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -66,6 +66,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NormalFromTexture_a4d31ef6820a4fefa7eccd136c22c677_Texture_0:
+        m_Texture: {fileID: 2800000, guid: 993879fe658a83242a39d4c4fad8e924, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -74,28 +78,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _ParallaxOcclusionMapping_7ba89683c3fa456fbef1c1e9412f72aa_Heightmap_2:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_18318c483b0941e09f79ff6f4b1ad6ea_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 1fa36d070b8b67741ab18cabc493e788, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_a4e029e4e1e041a3a8672749487abb51_Texture_1:
+    - _SampleTexture2D_46665a4aacd444d5ac8792a8ae1f419e_Texture_1:
         m_Texture: {fileID: 2800000, guid: 993879fe658a83242a39d4c4fad8e924, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_1c8d60238f3b4d7da70163540e35e868_Out_0:
-        m_Texture: {fileID: 2800000, guid: 993879fe658a83242a39d4c4fad8e924, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ice_normal:
-        m_Texture: {fileID: 2800000, guid: 1fa36d070b8b67741ab18cabc493e788, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -139,12 +127,10 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _normal_map: 0
-    - _refraction_level: 0.47
+    - _strength: 0.43
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.6273585, g: 0.825421, b: 1, a: 1}
+    - _Color: {r: 0.23642753, g: 0.33264467, b: 0.6509434, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _cracks_colour: {r: 1, g: 0.9198113, b: 0.9198113, a: 0}
   m_BuildTextureStacks: []
