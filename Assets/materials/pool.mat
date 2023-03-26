@@ -121,8 +121,11 @@ Material:
     - _ZWrite: 1
     - _distance: 1.1
     - _normal_scale: 6
-    - _normal_speed: 0.37
+    - _normal_speed: 0.16
     - _refraction_strength: 0.5
+    - _wave_height: 0.2
+    - _wave_resolution: 6
+    - _wave_speed: 0.1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
