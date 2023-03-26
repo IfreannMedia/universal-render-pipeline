@@ -120,6 +120,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     - _distance: 1.1
+    - _foam_amount: 4
     - _normal_scale: 6
     - _normal_speed: 0.16
     - _refraction_strength: 0.5
@@ -133,6 +134,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _depth_colour: {r: 0.107600555, g: 0.10943967, b: 0.24528301, a: 1}
+    - _foam_colour: {r: 0.42733178, g: 0.5699249, b: 0.9150943, a: 0.72156864}
     - _normal_Direction: {r: 0, g: 1, b: 0, a: 0}
     - _shallow_colour: {r: 0.19357423, g: 0.31067905, b: 0.4716981, a: 0.6156863}
     - _tiling: {r: 1, g: 1, b: 0, a: 0}
